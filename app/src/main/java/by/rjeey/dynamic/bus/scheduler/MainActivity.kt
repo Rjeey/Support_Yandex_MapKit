@@ -12,9 +12,9 @@ import com.yandex.mapkit.MapKitFactory
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        MapKitFactory.setApiKey("a305ff24-d0df-4871-9a52-0ae434368133")
-        MapKitFactory.initialize(this)
         super.onCreate(savedInstanceState)
+//        MapKitFactory.setApiKey("a305ff24-d0df-4871-9a52-0ae434368133")
+//        MapKitFactory.initialize(this)
 
         setContentView(R.layout.activity_main)
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
