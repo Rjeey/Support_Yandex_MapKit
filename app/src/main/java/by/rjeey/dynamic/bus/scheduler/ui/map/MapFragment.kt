@@ -26,8 +26,7 @@ class MapFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        MapKitFactory.setApiKey("a305ff24-d0df-4871-9a52-0ae434368133")
-        MapKitFactory.initialize(context)
+
 
         val root = inflater.inflate(R.layout.map_activity, container, false)
 //        imageview = root.findViewById(R.id.map)
